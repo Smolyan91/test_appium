@@ -5,5 +5,5 @@ Feature: Hello World
     when I try to register myself in Quikir
 
     When I launch Quikr app
-     And I choose to log in using  Google
-    Then I see account picker screen with my email address "testemail@gmail.com"
+     And I choose to log in using Google
+    Then I see account picker screen with my email address "testinggapp11@gmail.com"
