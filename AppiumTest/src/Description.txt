@@ -1,0 +1,8 @@
+Appium server flags (some important ones):
+
+        --address           ip адрес (по умолчанию 0.0.0.0)
+        --port              порт, который мы слушаем (по умолчанию 4723)
+        --session-override  вкл перезапись сессии (новая сессия)
+        --log               куда пускать логи (по умолчанию null)
+        --bootstrap-port    исп. для общения с appium (только для Android)
+        --webhook           отправляет лог по http ( Пример: appium --webhook localhost:9876)
